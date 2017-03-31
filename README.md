@@ -13,3 +13,18 @@ If the have React Native setup is ready (https://facebook.github.io/react-native
 - Open a new command prompt and run "react-native run-android" inside the same folder to launch the app on your Android emulator.
 
 If everything is set up correctly, you should see your new app running in your Android emulator shortly.
+
+## What is Included
+
+ All the Getting started Samples 
+
+1) Props (Bananas & Greetings Sample)
+2) State (Blinking Sample)
+3) Style (Text Style Sample)
+4) Height and Width 
+5) Layout with Flexbox
+6) Handling Text Input
+7) Using a ListView 
+8) Using a ScrollView
+
+
