@@ -16,6 +16,11 @@ import FlexDimensionsBasics from './FlexDimensionsBasics';
 import FlexDirectionBasics from './FlexDirectionBasics';
 import JustifyContentBasics from './JustifyContentBasics';
 import AlignItemsBasics from './AlignItemsBasics';
+import PizzaTranslator from './PizzaTranslator';
+import ListViewBasics from './ListViewBasics';
+
+
+
 
 
 import {
@@ -30,6 +35,10 @@ export default class ReactNativeSample extends Component {
         return (
             <View  style={{alignItems: 'center'}}>
 
+
+               {
+                 //Using a ScrollView Example
+               }
               <ScrollView >
 
                 <Text  style={Style.headerText} > The Ultimate React Native Sample {"\n"}</Text>
@@ -102,6 +111,18 @@ export default class ReactNativeSample extends Component {
                }
               <Text  style={Style.displayText}>5.3) Align Items Basics Sample </Text>
               <AlignItemsBasics/>
+
+              {
+                //Text Input
+              }
+             <Text  style={Style.titleText}>6) Input Field Example </Text>
+             <PizzaTranslator/>
+
+             {
+               //Using a ListView
+             }
+            <Text  style={Style.titleText}>7) Using a ListView </Text>
+            <ListViewBasics/>
 
             </ScrollView>
             </View>
