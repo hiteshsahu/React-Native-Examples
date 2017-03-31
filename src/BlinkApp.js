@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { AppRegistry, Text, View } from 'react-native';
 
-class Blink extends Component {
+ class Blink extends Component {
   constructor(props) {
     super(props);
     this.state = {showText: true};
@@ -20,10 +20,10 @@ class Blink extends Component {
   }
 }
 
-class BlinkApp extends Component {
+export default class BlinkApp extends Component {
   render() {
     return (
-      <View>
+      <View  style={{alignItems: 'center'}}>
         <Blink text='I love to blink' />
         <Blink text='Yes blinking is so great' />
         <Blink text='Why did they ever take this out of HTML' />
@@ -32,5 +32,3 @@ class BlinkApp extends Component {
     );
   }
 }
-
-AppRegistry.registerComponent('BlinkApp', () => BlinkApp);

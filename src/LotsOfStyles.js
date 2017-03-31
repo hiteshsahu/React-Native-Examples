@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Text, View } from 'react-native';
 
-class LotsOfStyles extends Component {
+export default class LotsOfStyles extends Component {
   render() {
     return (
-      <View>
+      <View  style={{alignItems: 'center'}}>
         <Text style={styles.red}>just red</Text>
         <Text style={styles.bigblue}>just bigblue</Text>
         <Text style={[styles.bigblue, styles.red]}>bigblue, then red</Text>
@@ -24,5 +24,3 @@ const styles = StyleSheet.create({
     color: 'red',
   },
 });
-
-AppRegistry.registerComponent('LotsOfStyles', () => LotsOfStyles);
