@@ -13,7 +13,9 @@ import BlinkApp from './BlinkApp';
 import LotsOfStyles from './LotsOfStyles';
 import FixedDimensionsBasics from './FixedDimensionsBasics';
 import FlexDimensionsBasics from './FlexDimensionsBasics';
-
+import FlexDirectionBasics from './FlexDirectionBasics';
+import JustifyContentBasics from './JustifyContentBasics';
+import AlignItemsBasics from './AlignItemsBasics';
 
 
 import {
@@ -75,16 +77,36 @@ export default class ReactNativeSample extends Component {
              <Text  style={Style.titleText}>  4) View Dimension </Text>
              <Text  style={Style.displayText}>4.1) Fixed Dimension Sample </Text>
               <FixedDimensionsBasics/>
-             <Text  style={Style.displayText}>4.1) Flex Dimension Sample </Text>
+             <Text  style={Style.displayText}>4.2) Flex Dimension Sample </Text>
              <FlexDimensionsBasics />
 
-                             </ScrollView>
-                          </View>
-                      );
-                  }
+             {
+              // Flex Layout Tutorial
+             }
+             <Text  style={Style.titleText}>  5) Layout with Flexbox </Text>
 
-
-
+              {
+              //Flex Direction
               }
+             <Text  style={Style.displayText}>5.1) Flex Direction Sample </Text>
+              <FlexDirectionBasics/>
+
+              {
+              //Justify Content
+               }
+              <Text  style={Style.displayText}>5.2) justify Content Sample </Text>
+              <JustifyContentBasics/>
+
+               {
+                 //Align Content
+               }
+              <Text  style={Style.displayText}>5.3) Align Items Basics Sample </Text>
+              <AlignItemsBasics/>
+
+            </ScrollView>
+            </View>
+            );
+      }
+}
 
 AppRegistry.registerComponent('ReactNativeSample', () => ReactNativeSample);
