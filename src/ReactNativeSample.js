@@ -41,7 +41,7 @@ export default class ReactNativeSample extends Component {
                }
               <ScrollView >
 
-                <Text  style={Style.headerText} > The Ultimate React Native Sample {"\n"}</Text>
+                <Text  style={Style.headerText} > The React Native Sample {"\n"}</Text>
 
                 <Text  style={Style.titleText} > 1) View Props Example </Text>
 
