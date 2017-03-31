@@ -7,17 +7,17 @@
 
 import React, { Component } from 'react';
 import Style from './Style';
-import Bananas from './Bananas';
-import LotsOfGreetings from './LotsOfGreetings';
-import BlinkApp from './BlinkApp';
-import LotsOfStyles from './LotsOfStyles';
-import FixedDimensionsBasics from './FixedDimensionsBasics';
-import FlexDimensionsBasics from './FlexDimensionsBasics';
-import FlexDirectionBasics from './FlexDirectionBasics';
-import JustifyContentBasics from './JustifyContentBasics';
-import AlignItemsBasics from './AlignItemsBasics';
-import PizzaTranslator from './PizzaTranslator';
-import ListViewBasics from './ListViewBasics';
+import Bananas from './basics/Bananas';
+import LotsOfGreetings from './basics/LotsOfGreetings';
+import BlinkApp from './basics/BlinkApp';
+import LotsOfStyles from './basics/LotsOfStyles';
+import FixedDimensionsBasics from './basics/FixedDimensionsBasics';
+import FlexDimensionsBasics from './basics/FlexDimensionsBasics';
+import FlexDirectionBasics from './basics/FlexDirectionBasics';
+import JustifyContentBasics from './basics/JustifyContentBasics';
+import AlignItemsBasics from './basics/AlignItemsBasics';
+import PizzaTranslator from './basics/PizzaTranslator';
+import ListViewBasics from './basics/ListViewBasics';
 
 
 
