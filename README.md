@@ -2,6 +2,8 @@
 React Native & React JS examples based on Official Facebook Tutorials. This single project contain sample source code of all the Faceboook React JS Tutorial.
 This project cover all the examples from https://facebook.github.io/react-native/ page. 
 
+![alt tag](https://github.com/hiteshsahu/React-Native-Examples/blob/master/Art/art.gif)
+
 ## How to Use It
 
 If the have React Native setup is ready (https://facebook.github.io/react-native/docs/getting-started.html) in your machine then
@@ -28,4 +30,4 @@ If everything is set up correctly, you should see your new app running in your A
 8) Using a ScrollView
 
 
-![alt tag](https://github.com/hiteshsahu/React-Native-Examples/blob/master/Art/art.gif)
+
