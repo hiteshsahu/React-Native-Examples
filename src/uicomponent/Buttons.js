@@ -8,7 +8,7 @@ export default class Buttons extends Component {
   render() {
     return (
 
-      <View style={Style.vertical}>
+      <View style={Style.vertical, Style.centering}>
 
       <Text  style={Style.headerText} > Buttons </Text>
 
