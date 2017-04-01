@@ -31,7 +31,6 @@ export default class ReactNativeBasics extends Component {
         return (
             <View  style={{alignItems: 'center'}}>
 
-
                {
                  //Using a ScrollView Example
                }
