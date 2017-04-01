@@ -18,7 +18,7 @@ var Style = StyleSheet.create({
         justifyContent: 'center'
     },
 
-   //Text styles
+
     baseText: {
      fontFamily: 'Cochin',
    },
@@ -40,6 +40,22 @@ var Style = StyleSheet.create({
        padding :5,
        fontWeight: 'bold',
        textAlign: 'left',
+   },
+
+   centering: {
+     alignItems: 'center',
+     justifyContent: 'center',
+     padding: 8,
+   },
+
+   horizontal: {
+     flexDirection: 'row',
+     justifyContent: 'space-around',
+     padding: 8,
+   },
+
+   gray: {
+     backgroundColor: '#cccccc',
    },
 
 });

@@ -7,6 +7,14 @@
 import React, { Component } from 'react';
 import Swiper from './libs/Swiper';
 import ReactNativeBasics from './ReactNativeBasics';
+import LoadingIndicator from './uicomponent/LoadingIndicator';
+import Buttons from './uicomponent/Buttons';
+import Switches from './uicomponent/Switches';
+
+Switches
+
+
+
 import {
     View,
     Text,
@@ -19,15 +27,25 @@ export default class ReactNativeSample extends Component {
 
           <Swiper showsButtons>
             <View >
+            {
               //React Native Basic Sample
-              < ReactNativeBasics style/>
+            }
+              <ReactNativeBasics />
+            </View>
+
+            {
+              //React Native UI Components
+            }
+            <View >
+              <LoadingIndicator />
             </View>
             <View >
-              <Text >Beautiful</Text>
+              <Buttons />
             </View>
             <View >
-              <Text >And simple</Text>
+              <Switches />
             </View>
+
           </Swiper>
 
             );
