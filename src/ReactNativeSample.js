@@ -10,6 +10,7 @@ import ReactNativeBasics from './ReactNativeBasics';
 import LoadingIndicator from './uicomponent/LoadingIndicator';
 import Buttons from './uicomponent/Buttons';
 import Switches from './uicomponent/Switches';
+import TextView from './uicomponent/TextView';
 
 Switches
 
@@ -45,7 +46,9 @@ export default class ReactNativeSample extends Component {
             <View >
               <Switches />
             </View>
-
+            <View >
+              <TextView />
+            </View>
           </Swiper>
 
             );
